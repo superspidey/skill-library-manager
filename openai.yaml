@@ -1,0 +1,6 @@
+interface:
+  display_name: "Skill Library Manager"
+  short_description: "Move skills safely and update the Excel catalog"
+  default_prompt: "Use $skill-library-manager to scan the Excel catalog, move only new external skills to D:\\ALL skills, and preserve their original paths with junctions."
+policy:
+  allow_implicit_invocation: true

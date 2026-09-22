@@ -1,0 +1,7 @@
+node_modules/
+*.log
+*.bak.xlsx
+*.tmp.xlsx
+*.inspect.ndjson
+*catalog-preview.png
+backups/
