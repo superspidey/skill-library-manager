@@ -1,1 +1,198 @@
-aW1wb3J0IGZzIGZyb20gJ25vZGU6ZnMvcHJvbWlzZXMnCmltcG9ydCBwYXRoIGZyb20gJ25vZGU6cGF0aCcKaW1wb3J0IHsgY3JlYXRlUmVxdWlyZSB9IGZyb20gJ25vZGU6bW9kdWxlJwppbXBvcnQgeyBwYXRoVG9GaWxlVVJMIH0gZnJvbSAnbm9kZTp1cmwnCgpjb25zdCBwYXJzZUFyZ3MgPSAoKSA9PiB7CiAgY29uc3QgYXJncyA9IG5ldyBNYXAoKQogIGZvciAobGV0IGluZGV4ID0gMjsgaW5kZXggPCBwcm9jZXNzLmFyZ3YubGVuZ3RoOyBpbmRleCArPSAxKSB7CiAgICBjb25zdCB0b2tlbiA9IHByb2Nlc3MuYXJndltpbmRleF0KICAgIGlmICghdG9rZW4uc3RhcnRzV2l0aCgnLS0nKSkgY29udGludWUKICAgIGNvbnN0IG5leHQgPSBwcm9jZXNzLmFyZ3ZbaW5kZXggKyAxXQogICAgaWYgKG5leHQgJiYgIW5leHQuc3RhcnRzV2l0aCgnLS0nKSkgewogICAgICBhcmdzLnNldCh0b2tlbi5zbGljZSgyKSwgbmV4dCkKICAgICAgaW5kZXggKz0gMQogICAgfSBlbHNlIHsKICAgICAgYXJncy5zZXQodG9rZW4uc2xpY2UoMiksIHRydWUpCiAgICB9CiAgfQogIHJldHVybiBhcmdzCn0KCmNvbnN0IG5vcm1hbGl6ZVJvd3MgPSAoZGF0YSkgPT4gewogIGNvbnN0IHJvd3MgPSBBcnJheS5pc0FycmF5KGRhdGEpID8gZGF0YSA6IGRhdGE/LnJvd3MKICBpZiAoIUFycmF5LmlzQXJyYXkocm93cykpIHRocm93IG5ldyBFcnJvcignUm93cyBKU09OIG11c3QgYmUgYW4gYXJyYXkgb3IgYW4gb2JqZWN0IHdpdGggYSByb3dzIGFycmF5LicpCiAgcmV0dXJuIHJvd3MubWFwKChyb3cpID0+ICh7CiAgICBuYW1lOiBTdHJpbmcocm93Py5uYW1lID8/ICcnKS50cmltKCksCiAgICBkZXNjcmlwdGlvbjogU3RyaW5nKHJvdz8uZGVzY3JpcHRpb24gPz8gJycpLnRyaW0oKSwKICAgIHVzYWdlU2NlbmFyaW86IFN0cmluZyhyb3c/LnVzYWdlU2NlbmFyaW8gPz8gJycpLnRyaW0oKSwKICB9KSkuZmlsdGVyKChyb3cpID0+IHJvdy5uYW1lKQp9Cgpjb25zdCBsb2FkQXJ0aWZhY3RUb29sID0gYXN5bmMgKCkgPT4gewogIGNvbnN0IG5vZGVNb2R1bGVzUm9vdCA9IHByb2Nlc3MuZW52LkFSVElGQUNUX1RPT0xfTk9ERV9NT0RVTEVTCiAgaWYgKCFub2RlTW9kdWxlc1Jvb3QpIHsKICAgIHRocm93IG5ldyBFcnJvcignU2V0IEFSVElGQUNUX1RPT0xfTk9ERV9NT0RVTEVTIGZyb20gbG9hZF93b3Jrc3BhY2VfZGVwZW5kZW5jaWVzIGJlZm9yZSBydW5uaW5nIHRoaXMgc2NyaXB0LicpCiAgfQogIGNvbnN0IHJlcXVpcmVGcm9tUnVudGltZSA9IGNyZWF0ZVJlcXVpcmUocGF0aC5qb2luKG5vZGVNb2R1bGVzUm9vdCwgJ3BhY2thZ2UuanNvbicpKQogIGNvbnN0IGVudHJ5UGF0aCA9IHJlcXVpcmVGcm9tUnVudGltZS5yZXNvbHZlKCdAb2FpL2FydGlmYWN0LXRvb2wnKQogIHJldHVybiBpbXBvcnQocGF0aFRvRmlsZVVSTChlbnRyeVBhdGgpLmhyZWYpCn0KCmNvbnN0IGFyZ3MgPSBwYXJzZUFyZ3MoKQpjb25zdCBjYXRhbG9nQXJnID0gYXJncy5nZXQoJ2NhdGFsb2cnKQpjb25zdCByb3dzQXJnID0gYXJncy5nZXQoJ3Jvd3MnKQppZiAoIWNhdGFsb2dBcmcgfHwgIXJvd3NBcmcpIHRocm93IG5ldyBFcnJvcignQm90aCAtLWNhdGFsb2cgYW5kIC0tcm93cyBhcmUgcmVxdWlyZWQuJykKY29uc3QgY2F0YWxvZ1BhdGggPSBwYXRoLnJlc29sdmUoU3RyaW5nKGNhdGFsb2dBcmcpKQpjb25zdCByb3dzUGF0aCA9IHBhdGgucmVzb2x2ZShTdHJpbmcocm93c0FyZykpCgpjb25zdCByZXF1ZXN0ZWRSb3dzID0gbm9ybWFsaXplUm93cyhKU09OLnBhcnNlKGF3YWl0IGZzLnJlYWRGaWxlKHJvd3NQYXRoLCAndXRmOCcpKSkKZm9yIChjb25zdCByb3cgb2YgcmVxdWVzdGVkUm93cykgewogIGlmICghcm93LmRlc2NyaXB0aW9uIHx8ICFyb3cudXNhZ2VTY2VuYXJpbykgewogICAgdGhyb3cgbmV3IEVycm9yKGBSb3cgJyR7cm93Lm5hbWV9JyBtdXN0IGluY2x1ZGUgZGVzY3JpcHRpb24gYW5kIHVzYWdlU2NlbmFyaW8uYCkKICB9Cn0KY29uc3QgcmVxdWVzdGVkTmFtZXMgPSByZXF1ZXN0ZWRSb3dzLm1hcCgocm93KSA9PiByb3cubmFtZSkKaWYgKG5ldyBTZXQocmVxdWVzdGVkTmFtZXMpLnNpemUgIT09IHJlcXVlc3RlZE5hbWVzLmxlbmd0aCkgewogIHRocm93IG5ldyBFcnJvcignUm93cyBKU09OIGNvbnRhaW5zIGR1cGxpY2F0ZSBza2lsbCBuYW1lcy4nKQp9Cgpjb25zdCB7IEZpbGVCbG9iLCBTcHJlYWRzaGVldEZpbGUgfSA9IGF3YWl0IGxvYWRBcnRpZmFjdFRvb2woKQpjb25zdCB3b3JrYm9vayA9IGF3YWl0IFNwcmVhZHNoZWV0RmlsZS5pbXBvcnRYbHN4KGF3YWl0IEZpbGVCbG9iLmxvYWQoY2F0YWxvZ1BhdGgpKQpjb25zdCBzaGVldCA9IHdvcmtib29rLndvcmtzaGVldHMuZ2V0Rmlyc3QoKQpjb25zdCB1c2VkID0gc2hlZXQuZ2V0VXNlZFJhbmdlKCkKY29uc3QgdmFsdWVzID0gdXNlZC52YWx1ZXMubWFwKChyb3cpID0+IHJvdy5tYXAoKHZhbHVlKSA9PiAodmFsdWUgPT0gbnVsbCA/ICcnIDogU3RyaW5nKHZhbHVlKS50cmltKCkpKSkKY29uc3QgZXhwZWN0ZWRIZWFkZXJzID0gWydTa2lsbCDlkI3np7AnLCAn6K+05piOJywgJ+S9v+eUqOWcuuaZryddCmlmIChKU09OLnN0cmluZ2lmeSgodmFsdWVzWzBdID8/IFtdKS5zbGljZSgwLCAzKSkgIT09IEpTT04uc3RyaW5naWZ5KGV4cGVjdGVkSGVhZGVycykpIHsKICB0aHJvdyBuZXcgRXJyb3IoYFVuZXhwZWN0ZWQgaGVhZGVyczogJHtKU09OLnN0cmluZ2lmeSgodmFsdWVzWzBdID8/IFtdKS5zbGljZSgwLCAzKSl9YCkKfQoKY29uc3QgZXhpc3RpbmdOYW1lcyA9IG5ldyBTZXQodmFsdWVzLnNsaWNlKDEpLm1hcCgocm93KSA9PiByb3dbMF0pLmZpbHRlcihCb29sZWFuKSkKZm9yIChjb25zdCByb3cgb2YgdmFsdWVzLnNsaWNlKDEpLmZpbHRlcigocm93KSA9PiByb3dbMF0pKSB7CiAgaWYgKGV4aXN0aW5nTmFtZXMuaGFzKHJvd1swXSkgJiYgdmFsdWVzLnNsaWNlKDEpLmZpbHRlcigoY2FuZGlkYXRlKSA9PiBjYW5kaWRhdGVbMF0gPT09IHJvd1swXSkubGVuZ3RoID4gMSkgewogICAgdGhyb3cgbmV3IEVycm9yKGBDYXRhbG9nIGNvbnRhaW5zIGR1cGxpY2F0ZSBza2lsbCBuYW1lOiAke3Jvd1swXX1gKQogIH0KfQoKY29uc3Qgcm93c1RvQWRkID0gcmVxdWVzdGVkUm93cy5maWx0ZXIoKHJvdykgPT4gIWV4aXN0aW5nTmFtZXMuaGFzKHJvdy5uYW1lKSkKaWYgKHJvd3NUb0FkZC5sZW5ndGggPT09IDApIHsKICBwcm9jZXNzLnN0ZG91dC53cml0ZShgJHtKU09OLnN0cmluZ2lmeSh7IGNhdGFsb2dQYXRoLCBhZGRlZDogMCwgc2tpcHBlZDogcmVxdWVzdGVkUm93cy5sZW5ndGgsIHZlcmlmaWVkOiB0cnVlIH0sIG51bGwsIDIpfVxuYCkKICBwcm9jZXNzLmV4aXQoMCkKfQoKY29uc3QgZXhpc3RpbmdEYXRhQ291bnQgPSB2YWx1ZXMuc2xpY2UoMSkuZmlsdGVyKChyb3cpID0+IHJvd1swXSkubGVuZ3RoCmNvbnN0IGZpcnN0RGF0YVJvdyA9IHVzZWQucm93SW5kZXggKyBleGlzdGluZ0RhdGFDb3VudCArIDIKY29uc3Qgc3RhcnRJbmRleCA9IGZpcnN0RGF0YVJvdyAtIDEKaWYgKGZpcnN0RGF0YVJvdyAhPT0gZXhpc3RpbmdEYXRhQ291bnQgKyAyKSB7CiAgdGhyb3cgbmV3IEVycm9yKCdVbmFibGUgdG8gZGV0ZXJtaW5lIHRoZSBhcHBlbmQgcm93IHNhZmVseS4nKQp9CmNvbnN0IGFwcGVuZFJhbmdlID0gc2hlZXQuZ2V0UmFuZ2VCeUluZGV4ZXMoc3RhcnRJbmRleCwgMCwgcm93c1RvQWRkLmxlbmd0aCwgMykKYXBwZW5kUmFuZ2UudmFsdWVzID0gcm93c1RvQWRkLm1hcCgocm93KSA9PiBbcm93Lm5bWUsIHJvdy5kZXNjcmlwdGlvbiwgcm93LnVzYWdlU2NlbmFyaW9dKQoKY29uc3QgYm9yZGVyID0gewogIGluc2lkZUhvcml6b250YWw6IHsgc3R5bGU6ICd0aGluJywgY29sb3I6ICcjRTVFN0VCJyB9LAogIHRvcDogeyBzdHlsZTogJ3RoaW4nLCBjb2xvcjogJyNEN0RFRTgnIH0sCiAgYm90dG9tOiB7IHN0eWxlOiAndGhpbicsIGNvbG9yOiAnI0Q3REVFOCcgfSwKICBsZWZ0OiB7IHN0eWxlOiAndGhpbicsIGNvbG9yOiAnI0Q3REVFOCcgfSwKICByaWdodDogeyBzdHlsZTogJ3RoaW4nLCBjb2xvcjogJyNEN0RFRTgnIH0sCn0KCmZvciAobGV0IGluZGV4ID0gMDsgaW5kZXggPCByb3dzVG9BZGQubGVuZ3RoOyBpbmRleCArPSAxKSB7CiAgY29uc3Qgcm93ID0gcm93c1RvQWRkW2luZGV4XQogIGNvbnN0IHJvd051bWJlciA9IGZpcnN0RGF0YVJvdyArIGluZGV4CiAgY29uc3QgZXN0aW1hdGVkTGluZXMgPSBNYXRoLm1heCgxLCBNYXRoLmNlaWwoTWF0aC5tYXgocm93LmRlc2NyaXB0aW9uLmxlbmd0aCwgcm93LnVzYWdlU2NlbmFyaW8ubGVuZ3RoKSAvIDQzKSkKICBjb25zdCByb3dSYW5nZSA9IHNoZWV0LmdldFJhbmdlKGBBJHtyb3dOdW1iZXJ9OkMke3Jvd051bWJlcn1gKQogIHJvd1JhbmdlLmZvcm1hdCA9IHsKICAgIGZpbGw6IHJvd051bWJlciAlIDIgPT09IDAgPyAnI0ZGRkZGRicgOiAnI0Y3RjlGQycsCiAgICBmb250OiB7IG5hbWU6ICdNaWNyb3NvZnQgWWFIZWknLCBzaXplOiAxMSwgY29sb3I6ICcjMUYyOTM3JyB9LAogICAgdmVydGljYWxBbGlnbm1lbnQ6ICdjZW50ZXInLAogICAgd3JhcFRleHQ6IHRydWUsCiAgICByb3dIZWlnaHQ6IE1hdGgubWF4KDQyLCAyMCArIGVzdGltYXRlZExpbmVzICogMTgpLAogICAgYm9yZGVyczogYm9yZGVyLAogIH0KICBzaGVldC5nZXRSYW5nZShgQSR7cm93TnVtYmVyfTpBJHtyb3dOdW1iZXJ9YCkuZm9ybWF0LmZvbnQgPSB7CiAgICBuYW1lOiAnTWljcm9zb2Z0IFlhSGVpJywKICAgIHNpemU6IDExLAogICAgYm9sZDogdHJ1ZSwKICAgIGNvbG9yOiAnIzFGMjkzNycsCiAgfQp9Cgp3b3JrYm9vay5yZWNhbGN1bGF0ZSgpCmNvbnN0IGxhc3RSb3cgPSBmaXJzdERhdGFSb3cgKyByb3dzVG9BZGQubGVuZ3RoIC0gMQphd2FpdCB3b3JrYm9vay5pbnNwZWN0KHsKICBraW5kOiAndGFibGUnLAogIHJhbmdlOiBgQTE6QyR7bGFzdFJvd31gLAogIGluY2x1ZGU6ICd2YWx1ZXMnLAogIHRhYmxlTWF4Um93czogbGFzdFJvdywKICB0YWJsZU1heENvbHM6IDMsCn0pCmF3YWl0IHdvcmtib29rLmluc3BlY3QoewogIGtpbmQ6ICdtYXRjaCcsCiAgc2VhcmNoVGVybTogJyNSRUYhfCNESVYvMCF8I1ZBTFVFIXwjTkFNRVxcP3wjTi9BfCNOVU0hfCNOVUxMIXwjU1BJTEwhfCNDQUxDIScsCiAgb3B0aW9uczogeyB1c2VSZWdleDogdHJ1ZSwgbWF4UmVzdWx0czogMTAwIH0sCiAgc3VtbWFyeTogJ2Zvcm11bGEgZXJyb3Igc2NhbicsCn0pCgpjb25zdCBwcmV2aWV3UGF0aCA9IGFyZ3MuZ2V0KCdwcmV2aWV3JykgPyBwYXRoLnJlc29sdmUoU3RyaW5nKGFyZ3MuZ2V0KCdwcmV2aWV3JykpKSA6IG51bGwKaWYgKHByZXZpZXdQYXRoKSB7CiAgY29uc3QgcHJldmlldyA9IGF3YWl0IHdvcmtib29rLnJlbmRlcih7CiAgICBzaGVldE5hbWU6IHNoZWV0Lm5hbWUsCiAgICByYW5nZTogYEExOkMke2xhc3RSb3d9YCwKICAgIHNjYWxlOiAyLAogICAgZm9ybWF0OiAncG5nJywKICB9KQogIGF3YWl0IGZzLm1rZGlyKHBhdGguZGlybmFtZShwcmV2aWV3UGF0aCksIHsgcmVjdXJzaXZlOiB0cnVlIH0pCiAgYXdhaXQgZnMud3JpdGVGaWxlKHByZXZpZXdQYXRoLCBuZXcgVWludDhBcnJheShhd2FpdCBwcmV2aWV3LmFycmF5QnVmZmVyKCkpKQp9Cgpjb25zdCBvdXRwdXQgPSBhd2FpdCBTcHJlYWRzaGVldEZpbGUuZXhwb3J0WGxzeCh3b3JrYm9vaykKY29uc3Qgc3RhbXAgPSBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCkucmVwbGFjZSgvWzouXS9nLCAnLScpCmNvbnN0IHRlbXBQYXRoID0gcGF0aC5qb2luKHBhdGguZGlybmFtZShjYXRhbG9nUGF0aCksIGAuJHtwYXRoLmJhc2VuYW1lKGNhdGFsb2dQYXRoKX0uJHtzdGFtcH0udG1wLnhsc3hgKQpjb25zdCBiYWNrdXBQYXRoID0gcGF0aC5qb2luKHBhdGguZGlybmFtZShjYXRhbG9nUGF0aCksIGAke3BhdGguYmFzZW5hbWUoY2F0YWxvZ1BhdGgsICcueGxzeCcpfS4ke3N0YW1wfS5iYWsueGxzeGApCmNvbnN0IHN3YXBQYXRoID0gcGF0aC5qb2luKHBhdGguZGlybmFtZShjYXRhbG9nUGF0aCksIGAuJHtwYXRoLmJhc2VuYW1lKGNhdGFsb2dQYXRoKX0uJHtzdGFtcH0uc3dhcC54bHN4YCkKYXdhaXQgb3V0cHV0LnNhdmUodGVtcFBhdGgpCmF3YWl0IGZzLmNvcHlGaWxlKGNhdGFsb2dQYXRoLCBiYWNrdXBQYXRoKQoKbGV0IHN3YXBwZWQgPSBmYWxzZQp0cnkgewogIGF3YWl0IGZzLnJlbmFtZShjYXRhbG9nUGF0aCwgc3dhcFBhdGgpCiAgYXdhaXQgZnMucmVuYW1lKHRlbXBQYXRoLCBjYXRhbG9nUGF0aCkKICBzd2FwcGVkID0gdHJ1ZQogIGF3YWl0IGZzLnJtKHN3YXBQYXRoLCB7IGZvcmNlOiB0cnVlIH0pCn0gY2F0Y2ggKGVycm9yKSB7CiAgaWYgKCFzd2FwcGVkICYmICEoYXdhaXQgZnMuc3RhdChjYXRhbG9nUGF0aCkuY2F0Y2goKCkgPT4gbnVsbCkpKSB7CiAgICBhd2FpdCBmcy5yZW5hbWUoc3dhcFBhdGgsIGNhdGFsb2dQYXRoKS5jYXRjaCgoKSA9PiB7fSkKICB9CiAgdGhyb3cgZXJyb3IKfQoKY29uc3QgdmVyaWZ5V29ya2Jvb2sgPSBhd2FpdCBTcHJlYWRzaGVldEZpbGUuaW1wb3J0WGxzeChhd2FpdCBGaWxlQmxvYi5sb2FkKGNhdGFsb2dQYXRoKSkKY29uc3QgdmVyaWZ5U2hlZXQgPSB2ZXJpZnlXb3JrYm9vay53b3Jrc2hlZXRzLmdldEZpcnN0KCkKY29uc3QgdmVyaWZ5VmFsdWVzID0gdmVyaWZ5U2hlZXQuZ2V0VXNlZFJhbmdlKCkudmFsdWVzCmNvbnN0IHZlcmlmeVJvd3MgPSB2ZXJpZnlWYWx1ZXMuc2xpY2UoMSkuZmlsdGVyKChyb3cpID0+IHJvd1swXSkKY29uc3QgdmVyaWZ5TmFtZXMgPSB2ZXJpZnlSb3dzLm1hcCgocm93KSA9PiBTdHJpbmcocm93WzBdKS50cmltKCkpCmlmICh2ZXJpZnlSb3dzLmxlbmd0aCAhPT0gdmFsdWVzLnNsaWNlKDEpLmZpbHRlcigocm93KSA9PiByb3dbMF0pLmxlbmd0aCArIHJvd3NUb0FkZC5sZW5ndGgpIHsKICB0aHJvdyBuZXcgRXJyb3IoJ1NhdmVkIGNhdGFsb2cgcm93IGNvdW50IHZlcmlmaWNhdGlvbiBmYWlsZWQuJykKfQppZiAobmV3IFNldCh2ZXJpZnlOYW1lcykuc2l6ZSAhPT0gdmVyaWZ5TmFtZXMubGVuZ3RoKSB7CiAgdGhyb3cgbmV3IEVycm9yKCdTYXZlZCBjYXRhbG9nIGNvbnRhaW5zIGR1cGxpY2F0ZSBuYW1lcy4nKQp9CmZvciAoY29uc3Qgcm93IG9mIHJvd3NUb0FkZCkgewogIGlmICh2ZXJpZnlOYW1lcy5maWx0ZXIoKG5hbWUpID0+IG5hbWUgPT09IHJvdy5uYW1lKS5sZW5ndGggIT09IDEpIHsKICAgIHRocm93IG5ldyBFcnJvcihgU2F2ZWQgY2F0YWxvZyBkb2VzIG5vdCBjb250YWluICcke3Jvdy5uYW1lfScgZXhhY3RseSBvbmNlLmApCiAgfQp9Cgpwcm9jZXNzLnN0ZG91dC53cml0ZShgJHtKU09OLnN0cmluZ2lmeSh7CiAgY2F0YWxvZ1BhdGgsCiAgYmFja3VwUGF0aCwKICBwcmV2aWV3UGF0aCwKICBhZGRlZDogcm93c1RvQWRkLmxlbmd0aCwKICBza2lwcGVkOiByZXF1ZXN0ZWRSb3dzLmxlbmd0aCAtIHJvd3NUb0FkZC5sZW5ndGgsCiAgdG90YWxSb3dzOiB2ZXJpZnlSb3dzLmxlbmd0aCwKICB2ZXJpZmllZDogdHJ1ZSwKfSwgbnVsbCwgMil9XG5gKQ0KDQoNCg0K
+import fs from 'node:fs/promises'
+import path from 'node:path'
+import { createRequire } from 'node:module'
+import { pathToFileURL } from 'node:url'
+
+const parseArgs = () => {
+  const args = new Map()
+  for (let index = 2; index < process.argv.length; index += 1) {
+    const token = process.argv[index]
+    if (!token.startsWith('--')) continue
+    const next = process.argv[index + 1]
+    if (next && !next.startsWith('--')) {
+      args.set(token.slice(2), next)
+      index += 1
+    } else {
+      args.set(token.slice(2), true)
+    }
+  }
+  return args
+}
+
+const normalizeRows = (data) => {
+  const rows = Array.isArray(data) ? data : data?.rows
+  if (!Array.isArray(rows)) throw new Error('Rows JSON must be an array or an object with a rows array.')
+  return rows.map((row) => ({
+    name: String(row?.name ?? '').trim(),
+    description: String(row?.description ?? '').trim(),
+    usageScenario: String(row?.usageScenario ?? '').trim(),
+  })).filter((row) => row.name)
+}
+
+const loadArtifactTool = async () => {
+  const nodeModulesRoot = process.env.ARTIFACT_TOOL_NODE_MODULES
+  if (!nodeModulesRoot) {
+    throw new Error('Set ARTIFACT_TOOL_NODE_MODULES from load_workspace_dependencies before running this script.')
+  }
+  const requireFromRuntime = createRequire(path.join(nodeModulesRoot, 'package.json'))
+  const entryPath = requireFromRuntime.resolve('@oai/artifact-tool')
+  return import(pathToFileURL(entryPath).href)
+}
+
+const args = parseArgs()
+const catalogArg = args.get('catalog')
+const rowsArg = args.get('rows')
+if (!catalogArg || !rowsArg) throw new Error('Both --catalog and --rows are required.')
+const catalogPath = path.resolve(String(catalogArg))
+const rowsPath = path.resolve(String(rowsArg))
+
+const requestedRows = normalizeRows(JSON.parse(await fs.readFile(rowsPath, 'utf8')))
+for (const row of requestedRows) {
+  if (!row.description || !row.usageScenario) {
+    throw new Error(`Row '${row.name}' must include description and usageScenario.`)
+  }
+}
+const requestedNames = requestedRows.map((row) => row.name)
+if (new Set(requestedNames).size !== requestedNames.length) {
+  throw new Error('Rows JSON contains duplicate skill names.')
+}
+
+const { FileBlob, SpreadsheetFile } = await loadArtifactTool()
+const workbook = await SpreadsheetFile.importXlsx(await FileBlob.load(catalogPath))
+const sheet = workbook.worksheets.getFirst()
+const used = sheet.getUsedRange()
+const values = used.values.map((row) => row.map((value) => (value == null ? '' : String(value).trim())))
+const expectedHeaders = ['Skill 名称', '说明', '使用场景']
+if (JSON.stringify((values[0] ?? []).slice(0, 3)) !== JSON.stringify(expectedHeaders)) {
+  throw new Error(`Unexpected headers: ${JSON.stringify((values[0] ?? []).slice(0, 3))}`)
+}
+
+const existingNames = new Set(values.slice(1).map((row) => row[0]).filter(Boolean))
+for (const row of values.slice(1).filter((row) => row[0])) {
+  if (existingNames.has(row[0]) && values.slice(1).filter((candidate) => candidate[0] === row[0]).length > 1) {
+    throw new Error(`Catalog contains duplicate skill name: ${row[0]}`)
+  }
+}
+
+const rowsToAdd = requestedRows.filter((row) => !existingNames.has(row.name))
+if (rowsToAdd.length === 0) {
+  process.stdout.write(`${JSON.stringify({ catalogPath, added: 0, skipped: requestedRows.length, verified: true }, null, 2)}\n`)
+  process.exit(0)
+}
+
+const existingDataCount = values.slice(1).filter((row) => row[0]).length
+const firstDataRow = used.rowIndex + existingDataCount + 2
+const startIndex = firstDataRow - 1
+if (firstDataRow !== existingDataCount + 2) {
+  throw new Error('Unable to determine the append row safely.')
+}
+const appendRange = sheet.getRangeByIndexes(startIndex, 0, rowsToAdd.length, 3)
+appendRange.values = rowsToAdd.map((row) => [row.name, row.description, row.usageScenario])
+
+const border = {
+  insideHorizontal: { style: 'thin', color: '#E5E7EB' },
+  top: { style: 'thin', color: '#D7DEE8' },
+  bottom: { style: 'thin', color: '#D7DEE8' },
+  left: { style: 'thin', color: '#D7DEE8' },
+  right: { style: 'thin', color: '#D7DEE8' },
+}
+
+for (let index = 0; index < rowsToAdd.length; index += 1) {
+  const row = rowsToAdd[index]
+  const rowNumber = firstDataRow + index
+  const estimatedLines = Math.max(1, Math.ceil(Math.max(row.description.length, row.usageScenario.length) / 43))
+  const rowRange = sheet.getRange(`A${rowNumber}:C${rowNumber}`)
+  rowRange.format = {
+    fill: rowNumber % 2 === 0 ? '#FFFFFF' : '#F7F9FC',
+    font: { name: 'Microsoft YaHei', size: 11, color: '#1F2937' },
+    verticalAlignment: 'center',
+    wrapText: true,
+    rowHeight: Math.max(42, 20 + estimatedLines * 18),
+    borders: border,
+  }
+  sheet.getRange(`A${rowNumber}:A${rowNumber}`).format.font = {
+    name: 'Microsoft YaHei',
+    size: 11,
+    bold: true,
+    color: '#1F2937',
+  }
+}
+
+workbook.recalculate()
+const lastRow = firstDataRow + rowsToAdd.length - 1
+await workbook.inspect({
+  kind: 'table',
+  range: `A1:C${lastRow}`,
+  include: 'values',
+  tableMaxRows: lastRow,
+  tableMaxCols: 3,
+})
+await workbook.inspect({
+  kind: 'match',
+  searchTerm: '#REF!|#DIV/0!|#VALUE!|#NAME\\?|#N/A|#NUM!|#NULL!|#SPILL!|#CALC!',
+  options: { useRegex: true, maxResults: 100 },
+  summary: 'formula error scan',
+})
+
+const previewPath = args.get('preview') ? path.resolve(String(args.get('preview'))) : null
+if (previewPath) {
+  const preview = await workbook.render({
+    sheetName: sheet.name,
+    range: `A1:C${lastRow}`,
+    scale: 2,
+    format: 'png',
+  })
+  await fs.mkdir(path.dirname(previewPath), { recursive: true })
+  await fs.writeFile(previewPath, new Uint8Array(await preview.arrayBuffer()))
+}
+
+const output = await SpreadsheetFile.exportXlsx(workbook)
+const stamp = new Date().toISOString().replace(/[:.]/g, '-')
+const tempPath = path.join(path.dirname(catalogPath), `.${path.basename(catalogPath)}.${stamp}.tmp.xlsx`)
+const backupPath = path.join(path.dirname(catalogPath), `${path.basename(catalogPath, '.xlsx')}.${stamp}.bak.xlsx`)
+const swapPath = path.join(path.dirname(catalogPath), `.${path.basename(catalogPath)}.${stamp}.swap.xlsx`)
+await output.save(tempPath)
+await fs.copyFile(catalogPath, backupPath)
+
+let swapped = false
+try {
+  await fs.rename(catalogPath, swapPath)
+  await fs.rename(tempPath, catalogPath)
+  swapped = true
+  await fs.rm(swapPath, { force: true })
+} catch (error) {
+  if (!swapped && !(await fs.stat(catalogPath).catch(() => null))) {
+    await fs.rename(swapPath, catalogPath).catch(() => {})
+  }
+  throw error
+}
+
+const verifyWorkbook = await SpreadsheetFile.importXlsx(await FileBlob.load(catalogPath))
+const verifySheet = verifyWorkbook.worksheets.getFirst()
+const verifyValues = verifySheet.getUsedRange().values
+const verifyRows = verifyValues.slice(1).filter((row) => row[0])
+const verifyNames = verifyRows.map((row) => String(row[0]).trim())
+if (verifyRows.length !== values.slice(1).filter((row) => row[0]).length + rowsToAdd.length) {
+  throw new Error('Saved catalog row count verification failed.')
+}
+if (new Set(verifyNames).size !== verifyNames.length) {
+  throw new Error('Saved catalog contains duplicate names.')
+}
+for (const row of rowsToAdd) {
+  if (verifyNames.filter((name) => name === row.name).length !== 1) {
+    throw new Error(`Saved catalog does not contain '${row.name}' exactly once.`)
+  }
+}
+
+process.stdout.write(`${JSON.stringify({
+  catalogPath,
+  backupPath,
+  previewPath,
+  added: rowsToAdd.length,
+  skipped: requestedRows.length - rowsToAdd.length,
+  totalRows: verifyRows.length,
+  verified: true,
+}, null, 2)}\n`)
+
+
+
